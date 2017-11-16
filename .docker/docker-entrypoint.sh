@@ -30,8 +30,8 @@ if [ "$1" = 'graylog' -a "$(id -u)" = '0' ]; then
       -f /usr/share/graylog/data/config/graylog.conf
 fi
 
-echo "mongo.cloud66.me mongo" >> /etc/hosts
-echo "elasticsearch.cloud66.me elasticsearch" >> /etc/hosts
+echo "mongo.cloud66.local mongo" >> /etc/hosts
+echo "elasticsearch.cloud66.local elasticsearch" >> /etc/hosts
 
 # Allow the user to run arbitrarily commands like bash
 exec "$@"
