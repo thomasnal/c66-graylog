@@ -1,4 +1,4 @@
-FROM graylog2/server:2.1.1-1
+FROM graylog2/server:latest
 MAINTAINER Thomas Nalevajko <thomas@trueview.me>
 
 COPY .docker/docker-entrypoint.sh /
